@@ -40,11 +40,16 @@ echo json_encode($usuarios);*/
 
 
 //update na tabela
+//$usuario = new Usuario();
+//$usuario->loadbyId(6);
+//$usuario->update("professor","teacher");
+//echo $usuario;
+
+
+//delete
+
 $usuario = new Usuario();
-
 $usuario->loadbyId(6);
-$usuario->update("professor","teacher");
-
-echo $usuario;
+$usuario->delete();
 
  ?>
